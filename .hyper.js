@@ -129,7 +129,7 @@ module.exports = {
     hyperBorder: {
       borderWidth: '5px',
       animate: {
-        duration: '1s'
+              duration: '0.1s'
       },
       borderRadiusOuter: '4px',
     }
