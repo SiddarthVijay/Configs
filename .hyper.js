@@ -9,13 +9,13 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 16,
+    fontSize: 15,
 
     // font family with optional fallbacks
-    fontFamily: '"Input Mono", "Fura Code Nerd Font", "Fira Code", "Source Code Pro", "Major Mono Display", "IBM Plex Mono", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontFamily: '"SF Mono", "Input Mono", "Fura Code Nerd Font", "Fira Code", "Source Code Pro", "Major Mono Display", "IBM Plex Mono", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
-    fontWeight: 'normal',
+    fontWeight: 'bold',
 
     // font weight for bold characters: 'normal' or 'bold'
     fontWeightBold: 'bold',
