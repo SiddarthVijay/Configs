@@ -15,7 +15,7 @@ module.exports = {
     fontFamily: '"SF Mono", "Input Mono", "Fura Code Nerd Font", "Fira Code", "Source Code Pro", "Major Mono Display", "IBM Plex Mono", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
-    fontWeight: 'bold',
+    fontWeight: 'normal',
 
     // font weight for bold characters: 'normal' or 'bold'
     fontWeightBold: 'bold',
@@ -141,7 +141,12 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-        plugins: ["hyper-statusline", "hyper-theme", "hyperborder", "hyper-tabs-enhanced", "hyper-blink"],
+        plugins: [
+          "hyper-statusline",
+          "hyperborder",
+          "hyper-tabs-enhanced",
+          "hyper-blink",
+        ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
